@@ -22,7 +22,11 @@ dependencies:
     sdk: flutter
   hive_ce: ^2.0.0
   http: ^1.6.0
-  octo_image: ^2.1.0
+  # octo_image: ^2.1.0
+  octo_image:
+    git:
+      url: https://github.com/bggRGjQaUbCoE/octo_image.git
+      ref: dev
   path: ^1.8.0
   path_provider: ^2.0.0
 
